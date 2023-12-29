@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProviders";
 
 const NavBar = () => {
+
+    // const [user,logOut] = useContext(AuthContext)
   return (
     <div className="flex justify-center">
       <ul className="flex space-x-5 text-gray-500 uppercase font-semibold p-5">
@@ -49,6 +52,13 @@ const NavBar = () => {
         >
           Contact
         </NavLink>
+        {/* {
+            user ? <>
+            <p>{user?.displayName}</p>
+            </>: <>
+          <Link className="btn btn-accent" to='/signup'>signup</Link>
+          </>
+        } */}
       </ul>
     </div>
   );
