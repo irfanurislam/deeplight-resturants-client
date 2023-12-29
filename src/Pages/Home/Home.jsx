@@ -1,9 +1,10 @@
 import React from 'react';
+import BannerParalox from './BannerParalox';
 
 const Home = () => {
     return (
         <div>
-            <h1>this is Home page</h1>
+           <BannerParalox></BannerParalox>
         </div>
     );
 };
