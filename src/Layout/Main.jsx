@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../Pages/SharedPage/NavBar';
 import Footer from '../Pages/SharedPage/Footer';
 import { Outlet } from 'react-router-dom';
-import SectionTitle from '../hooks/UseNavBrands';
+
 import myImage from '../assets/image/logo.png'
 
 

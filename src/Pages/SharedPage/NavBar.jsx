@@ -9,7 +9,7 @@ const NavBar = () => {
 
     const handleLogOut = () =>{
       logOut()
-      .then(result =>{
+      .then(() =>{
         Swal.fire({
           title: 'Success!',
           text: 'User Logout successfully',
